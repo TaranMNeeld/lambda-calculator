@@ -1,0 +1,20 @@
+.container {
+    width: 500px;
+    background-color: #AF1E39;
+}
+
+.display-div {
+
+}
+
+.specials-div {
+    max-width: 80%;
+}
+
+.numbers-div {
+    max-width: 80%;
+}
+
+.operators-div {
+    max-width: 20%;
+}
