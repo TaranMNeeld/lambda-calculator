@@ -1,0 +1,9 @@
+.number-button {
+    background: #094377;
+    color: white;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2% 5% 2% 3%;
+}

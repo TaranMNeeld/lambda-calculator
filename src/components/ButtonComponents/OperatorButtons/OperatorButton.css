@@ -1,0 +1,9 @@
+.operator-button {
+    background: #007291;
+    color: white;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 2% 8% 0;
+}

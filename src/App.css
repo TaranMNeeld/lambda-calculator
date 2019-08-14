@@ -1,0 +1,32 @@
+.container {
+    width: 300px;
+    background-color: #AF1E39;
+    margin: auto;
+}
+
+.display-div {
+    background: grey;
+    width: 90%;
+    margin: 5%;
+    text-align: end;
+    letter-spacing: 1px;
+}
+.numbers-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.operators-div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.btns {
+    display: flex;
+}
+
+.right-btns {
+    margin-left: 2%;
+    max-width: 75%;
+}
