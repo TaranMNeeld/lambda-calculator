@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 const Display = () => {
-  return <div>{/* Display any props data here */}<h1>444444</h1></div>;
+
+  let [output, setOutput] = useState("0");
+
+  return <div>{/* Display any props data here */}<h1>{output}</h1></div>;
 };
 
 export default Display;

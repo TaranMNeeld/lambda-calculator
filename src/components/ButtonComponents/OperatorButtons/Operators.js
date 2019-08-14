@@ -10,9 +10,8 @@ import {operators} from "../../../data";
 
 const Operators = () => {
 
-  const [operator, setOperator] = useState(operators);
-
   // STEP 2 - add the imported data to state
+  const [operator, setOperator] = useState(operators);
 
   return (
     <div>
