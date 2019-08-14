@@ -26,11 +26,14 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
-        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div className="display-div"><Display/></div>
-        <div className="specials-div"><Specials/></div>
-        <div className="numbers-div"><Numbers/></div>
-        <div className="operators-div"><Operators/></div>
+        <div className="btns">
+          <div>
+            <Specials/>
+            <div className="numbers-div"><Numbers/></div>
+          </div>
+          <div className="operators-div"><Operators/></div>
+        </div>      
       </div>
     </div>
   );

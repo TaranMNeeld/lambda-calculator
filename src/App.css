@@ -1,20 +1,26 @@
 .container {
-    width: 500px;
+    width: 300px;
     background-color: #AF1E39;
+    margin: auto;
 }
 
 .display-div {
-
+    background: grey;
+    width: 90%;
+    margin: 5%;
+    text-align: end;
+    letter-spacing: 1px;
 }
-
-.specials-div {
-    max-width: 80%;
-}
-
 .numbers-div {
-    max-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .operators-div {
-    max-width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns {
+    display: flex;
 }
