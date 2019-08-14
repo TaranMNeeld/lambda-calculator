@@ -28,7 +28,7 @@ function App() {
       <div className="App">
         <div className="display-div"><Display/></div>
         <div className="btns">
-          <div>
+          <div className="right-btns">
             <Specials/>
             <div className="numbers-div"><Numbers/></div>
           </div>

@@ -19,8 +19,14 @@
 .operators-div {
     display: flex;
     justify-content: space-evenly;
+    width: 25%;
 }
 
 .btns {
     display: flex;
+}
+
+.right-btns {
+    margin-left: 2%;
+    max-width: 75%;
 }
